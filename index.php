@@ -2,6 +2,9 @@
 # Fill our vars and run on cli
 # $ php -f db-connect-test.php
 
+error_reporting(-1);
+ini_set('display_errors', 'On');
+
 $dbname = 'test';
 $dbuser = 'sample';
 $dbpass = 'sample';
