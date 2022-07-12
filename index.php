@@ -1,3 +1,10 @@
+<html>
+<head>
+  <title>PHP version</title>
+</head>
+<body>
+<h1>DB test</h1>
+
 <?php
  $host = 'localhost';
  $user = 'sample';
@@ -11,3 +18,6 @@
     exit(0);
    }
 ?>
+
+</body>
+</html>
